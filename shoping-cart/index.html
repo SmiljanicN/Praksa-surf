@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SURFHOUSE SHOPPING CART</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+	
+	<link rel="stylesheet" href="../css/normalize.css" type="text/css" />
+	<link rel="stylesheet" href="../css/skeleton.css" type="text/css" />
+	<link rel="stylesheet" href="../css/flexslider.css" type="text/css" />
+	<link rel="stylesheet" href="../css/style.css" type="text/css" />
+	<link rel="stylesheet" href="../css/font-awesome.min.css" type="text/css" />
+	
+</head>
+<body>
+	
+<style>
+	.social-box{
+		padding-left: 5px;
+    	background: rgba(0,0,0,0.2);
+	}
+	.breadcrumbs{
+		margin-bottom: 120px;
+	}
+	.four.columns.review-cart{
+		margin-left: 0;
+	}
+	
+</style>
+	
+<div id="checkout" class="height-350">
+	
+	<div class="container">
+	
+		<figure class="logo-box">
+			<a href="../index.html"><img src="../img/logo.png" alt="logo" /></a>
+		</figure>
+		
+		<ul class="social-box">
+			<li><a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+			<li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+			<li><a href=""><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+			<li><a href=""><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+			<li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+			<li><a href="">EN <i class="fa fa-caret-down" aria-hidden="true"></i></a></li>
+		</ul>
+	
+	<!-- shoping-box for mobile/tablet -->
+		
+	<div class="cart-menu-opener"><i class="fa fa-shopping-cart icon" aria-hidden="true"></i></div>
+	<div class="search-menu-opener"><i class="fa fa-search" aria-hidden="true"></i></div>
+		
+	<div id="shoping-cart-mobile" class="shoping-cart mobile">
+		<ul class="shoping-cart-innerbox">
+			<li><a href="">Log in</a></li>
+			<li><a href="">Wish list (0)</a></li>
+		</ul>
+			
+		<div class="shoping-cart-price">
+					
+			<ul class="price">
+				<li>$1,489.52</li>
+				<li><small>2 items</small></li>
+			</ul>
+			
+			<ul class="shoping-cart-price-cancel-edit">
+				<li><a href=""><small>edit</small></a></li> |
+				<li><a href="">X</a></li>
+			</ul>
+		</div>
+
+		<ul class="shoping-cart-innerbox">
+			<li><a href="../shoping-cart/index.html">View cart</a></li>
+			<li><a href="../checkout/index.html">Checkout</a></li>
+		</ul>
+	</div>
+		
+	<!-- end of shoping-box for mobile/tablet -->
+		
+	<!-- search-box for mobile/tablet -->
+	<div id="search-cart-mobile" class="shoping-cart">
+		<form>
+			<input type="text" class="left" name="search-text" placeholder="Search">
+			<button type="submit" class="left">
+				<i class="fa fa-search" aria-hidden="true"></i>
+			</button>
+		</form>
+		
+	</div>
+		
+	</div>
+		
+	<!-- end search-box for mobile/tablet -->
+	<div class="clear"></div>
+	
+	
+	
+</div>
+
+
+<main id="checkout" class="container">
+
+	<div class="left-sidebar-primary left">
+		<header>
+			
+			<span class="menu-label menu-opener"><i class="fa fa-bars" aria-hidden="true"></i> Menu</span>
+			
+			
+			<nav>
+				<ul>
+					<li><a href="">About</a></li>
+					<li><a href="">Apparel</a></li>
+					<li><a href="">Surf Apparel</a></li>
+					<li><a href="">Windsurf</a></li>
+					<li><a href="">Kitesurf</a></li>
+					<li><a href="">Accessories</a></li>
+					<li><a href="">Sale</a></li>
+					<li><a href="">Brands</a></li>
+					<li><a href="">Blog</a></li>
+					<li><a href="">Gadgets</a></li>
+					<li><a href="../contact/index.html">Contact</a></li>
+				
+				</ul>
+			</nav>
+									
+		</header>
+		
+		<div class="sub-menu left">
+				
+			<span id="sub-opener-1" class="menu-label sub-menu-opener"><i class="fa fa-caret-down" aria-hidden="true"></i> Category options</span>
+				
+			<ul id="sub-1">
+				<li><a href="">Men</a></li>
+				<li><a href="">Women</a></li>
+				<li><a href="">Kids</a></li>
+				<li><a href="">Wetsuits</a></li>
+				<li><a href="">Outerwear</a></li>
+				
+			</ul>
+		</div>
+		
+		<div class="sub-menu left">
+				
+			<span id="sub-opener-2" class="menu-label sub-menu-opener"><i class="fa fa-caret-down" aria-hidden="true"></i> Brand options</span>
+				
+			<ul id="sub-2">
+				<li><a href="">Billabong</a></li>
+				<li><a href="">Element</a></li>
+				<li><a href="">O'neill</a></li>
+				<li><a href="">Oakley</a></li>
+				<li><a href="">Reef</a></li>
+				<li><a href="">Quiksilver</a></li>
+				<li><a href="">Ripcurl</a></li>
+				<li><a href="">Jackss</a></li>
+				
+			</ul>
+		</div>
+		
+		<div class="clear"></div>
+		
+	</div><!-- end of left-sidebar-primary -->
+	
+	<div id="shoping-cart-page" class="right-sidebar right">
+		
+		<div class="breadcrumbs">
+			<ul class="left">
+				<li><a href="../index.html">Home</a></li> <i class="fa fa-angle-double-right" aria-hidden="true"></i> 
+				<li><a href="index.html">Shopping Cart</a></li>
+			</ul>
+			
+			<span class="right"> <i class="fa fa-angle-double-left" aria-hidden="true"></i> <a href="">Back to previous page</a></span>
+		</div>
+		
+		<div class="status">
+			<span><em>1</em>Shopping cart</span>
+			<span><em>2</em>Checkout</span>
+			<span><em>3</em>Order confirmation</span>
+		</div>
+		
+		<div class="row">
+		
+			<div class="cart eight columns">
+				
+				<div class="product-sectors">
+					<span class="cart-column-big">
+						Product name
+					</span>
+					
+					<span class="cart-column-small">
+						Unit price
+					</span>
+					
+					<span class="cart-column-small">
+						QTY
+					</span>
+					
+					<span class="cart-column-small">
+						Subtotal
+					</span>
+					<div class="clear"></div>
+				</div>
+				
+				<section class="product-in-cart left">
+					<figure class="left">
+						<img src="../img/home-image-2.jpg" alt=""/>
+					</figure>
+					
+					<div class="cart-column-big left">
+						<h3>PEEKY CROPPED</h3>
+						<p>Lorem ipsum dolor sit amet, albucius deserunt id pro, te vix fabulas atomorum. Sed novum integre recusabo ex e vix fabulas atomorum.</p>
+						<ul class="social">
+							<li><a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+							<li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+							<li><a href=""><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+					
+					<span class="cart-column-small price left">€ 1,399.50</span>
+					
+					<form class="cart-column-small QTY left">
+						<input type="number" />
+					</form>
+
+					<div class="cart-column-small total left">
+						€ 1,399.50 <em class="red"><a href="">X</a></em>
+					</div>
+				</section>
+				<!-- NEXT -->
+				<section class="product-in-cart left">
+					<figure class="left">
+						<img src="../img/home-image-2.jpg" alt=""/>
+					</figure>
+					
+					<div class="cart-column-big left">
+						<h3>OG SCALLOP SOLID</h3>
+						<p>Lorem ipsum dolor sit amet, albucius deserunt id pro, te vix fabulas atomorum. Sed novum integre recusabo ex e vix fabulas atomorum.</p>
+						<ul class="social">
+							<li><a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+							<li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+							<li><a href=""><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+					
+					<span class="cart-column-small price left">€ 1,399.50</span>
+					
+					<form class="cart-column-small QTY left">
+						<input type="number" />
+					</form>
+
+					<div class="cart-column-small total left">
+						€ 1,399.50 <em class="red"><a href="">X</a></em>
+					</div>
+				</section>
+							
+			</div>
+				
+			<div class="cart four columns review-cart right">
+				<h4>Review your cart</h4>
+				<p>YOUR CART <span class="right">€ 1,399.50</span></p>
+				<p>SHIPPING <span class="right">FREE</span></p>
+				<p>vat <span class="right">€ 112.20</span></p>
+				<p>BORDER TOTAL <span class="right">€ 1,399.50</span></p>
+				
+				<button class="button-primary yellow">checkout</button>
+				
+			</div>
+			
+			<div class="cupon-field left">
+				<h4>Have you got a coupon code?</h4>
+				<form>
+					<input type="text" placeholder="insert code" class="left"/>
+					<button class="button-primary yellow right">Update shopping cart</button>
+					<a href="">or continue shopping</a>
+				</form>
+			</div>
+			
+		</div>
+		
+		<div class="clear"></div>
+		
+		<hr/>
+	
+	<h2 class="slider-h2">You might also like</h2>
+		<!-- Place somewhere in the <body> of your page -->
+		<div id="basic-carausel" class="flexslider">
+		  <ul class="slides">
+			<li>
+			  <img src="../img/EXTRACT/cart_03.jpg" />
+			  <p class="flex-caption">Sleeve spring suit <span class="right">€.865.00</span></p>
+			</li>
+			<li>
+			  <img src="../img/EXTRACT/cart_03.jpg" />
+			  <p class="flex-caption">Sleeve spring suit <span class="right">€.865.00 <em>€.1270.15</em></span></p>
+			</li>
+			<li>
+			  <img src="../img/EXTRACT/cart_03.jpg" />
+			  <p class="flex-caption">Sleeve spring suit <span class="right">€.280.00</span></p>
+			</li>
+			<li>
+			  <img src="../img/EXTRACT/cart_03.jpg" />
+			  <p class="flex-caption">Sleeve spring suit <span class="right">€.865.00 <em>€.1270.15</em></span></p>
+			</li>
+			<!-- items mirrored twice, total of 12 -->
+		  </ul>
+		</div>
+		
+		<h2 class="slider-h2">Recently viewed</h2>
+		<!-- Place somewhere in the <body> of your page -->
+		<div id="basic-carausel-2" class="flexslider">
+		  <ul class="slides">
+			<li>
+			  <img src="../img/EXTRACT/cart_06.jpg." />
+			  <p class="flex-caption">Sleeve spring suit <span class="right">€.865.00</span></p>
+			</li>
+			<li>
+			  <img src="../img/EXTRACT/cart_06.jpg." />
+			  <p class="flex-caption">Sleeve spring suit <span class="right">€.865.00 <em>€.1270.15</em></span></p>
+			</li>
+			<li>
+			  <img src="../img/EXTRACT/cart_06.jpg." />
+			  <p class="flex-caption">Sleeve spring suit <span class="right">€.280.00</span></p>
+			</li>
+			<li>
+			  <img src="../img/EXTRACT/cart_06.jpg." />
+			  <p class="flex-caption">Sleeve spring suit <span class="right">€.865.00 <em>€.1270.15</em></span></p>
+			</li>
+			<!-- items mirrored twice, total of 12 -->
+		  </ul>
+		</div>	
+	
+	</div><!-- end of right sidebar -->
+	
+	
+		
+<!-- LEFT SIDEBAR -->
+	
+	<div class="left-sidebar left">
+		<figure class="banner-image left">
+			<img src="../img/Open-now.jpg" alt="Open Now" />
+			
+			<h3>Now is open!</h3>
+		</figure>
+	</div>
+	
+</main>
+	
+<div class="clear"></div>
+	
+<!-- FOOTER -->
+	
+<footer>
+	
+<div class="container">
+	<ul class="footer-social">
+		<li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+		<li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+		<li><a href=""><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+	</ul>
+</div>
+
+<div class="footer-mask">
+	<div class="container">
+		<ul class="two columns">
+			<h4>Category</h4>
+			<li><a href="../index.html">Home</a></li>
+			<li><a href="">About us</a></li>
+			<li><a href="">Eshop</a></li>
+			<li><a href="">Features</a></li>
+			<li><a href="">New collections</a></li>
+			<li><a href="">Blog</a></li>
+			<li><a href="../contact/index.html">Contact</a></li>
+
+		</ul>
+
+		<ul class="two columns">
+			<h4>Our Account</h4>
+			<li><a href="">Your Account</a></li>
+			<li><a href="">Personal information</a></li>
+			<li><a href="">Addresses</a></li>
+			<li><a href="">Discount</a></li>
+			<li><a href="">Orders history</a></li>
+			<li><a href="">Addresses</a></li>
+			<li><a href="">Search Terms</a></li>
+		</ul>
+
+		<ul class="two columns">
+			<h4>Our Support</h4>
+			<li><a href="">Site Map</a></li>
+			<li><a href="">Search Terms</a></li>
+			<li><a href="">Advanced Search</a></li>
+			<li><a href="">Mobile</a></li>
+			<li><a href="">Contact Us</a></li>
+			<li><a href="">Mobile</a></li>
+			<li><a href="">Addresses</a></li>
+		</ul>
+
+		<ul class="three columns">
+			<h4>Newsletter</h4>
+			<li>Join thousands of other people subscribe to our nes</li>
+			<form>
+				<input type="text" class="left">
+				<button class="button" type="submit" class="left">Submit</button>
+			</form>
+			
+			<img src="../img/cards/credit-cards-logos.png" alt="credit cards" />
+			
+		</ul>
+
+		<ul class="three columns">
+			<h4>About Us</h4>
+			<li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard. </li>
+			<li style="padding-top: 20px;"><span class="contact-info">Phone:</span> 1-999-342-9876</li>
+			<li><span class="contact-info">Email:</span> <a href="" style="color: #fff51f;">info@surfhouse.com</a></li>
+		</ul>
+	</div>
+	
+<div class="clear"></div>
+
+<div class="copyright">
+	<div class="container">
+		<span class="left">© 2014 SURFHOUSE All rights reserved - Designed by <a href="">theuncreativelab.com</a></span>
+		<ul class="right copyright-social">
+			<li><a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+			<li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+			<li><a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+			<li><a href=""><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+			<li><a href=""><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+			<li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+			<li><a href=""><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+
+		</ul>
+	</div>
+</div>
+	
+</div>
+	
+</footer>
+		
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="../js/jquery.flexslider.js" type="text/javascript"></script>
+
+<script>
+	
+$(window).load(function() {
+		   
+				
+	$('.menu-opener').on('click', function(){
+		
+		$('nav').toggleClass('show');
+		
+	});
+	
+	$('#sub-opener-1').on('click', function(){
+		
+		$('#sub-1').toggleClass('show');
+		$(this).find('i').toggleClass('rotate-180');
+		
+	});
+	
+	$('#sub-opener-2').on('click', function(){
+		
+		$('#sub-2').toggleClass('show');
+		$(this).find('i').toggleClass('rotate-180');
+		
+	});
+		
+	$('.cart-menu-opener').on('click', function(){
+		
+		$('#shoping-cart-mobile').toggleClass('show');
+		$(this).find('i').toggleClass('fa fa-times-circle fa fa-shopping-cart');
+		
+	});
+	
+	$('.search-menu-opener').on('click', function(){
+		
+		$('#search-cart-mobile').toggleClass('show');
+		$(this).find('i').toggleClass('fa fa-times-circle fa fa-search');
+		
+	});
+	
+	$('#basic-carausel').flexslider({
+		animation: "slide",
+		animationLoop: false,
+		itemWidth: 255,
+		itemMargin: 35,
+		controlNav: false,
+	  });
+	
+	$('#basic-carausel-2').flexslider({
+		animation: "slide",
+		animationLoop: false,
+		itemWidth: 255,
+		itemMargin: 35,
+		controlNav: false,
+	  });
+	
+	
+});
+	
+</script>
+	
+	
+</body>
+</html>
